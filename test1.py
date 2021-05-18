@@ -1,6 +1,6 @@
-# #!/usr/bin/python
-# # -*- coding: UTF-8 -*-
-#
+# !/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 # # 打开文件
 # fo = open("testNew.txt", "r+")
 # print ("文件名为: ", fo.name)
@@ -14,9 +14,9 @@
 # fo.close()
 
 
-
+#
 # # 大文件尝试
-# # open(r'C:\Users\Meet')
+# open(r'C:\Users\Meet')
 # f = open('testNew.txt',mode='r',encoding='utf-8')
 # f1= open('testNew123.txt',mode='w',encoding='utf-8')
 # for line in f:
@@ -26,15 +26,16 @@
 #     f1.write(head+'\n')
 # f.close()
 # f1.close()
-
+#
 
 
 
 
 # # 大文件尝试(第一次)(成功去除冒号后面内容)
 # # open(r'C:\Users\Meet')
-# f = open(r'D:\PIyiyi.txt',mode='r',encoding='utf-8')
-# f1= open(r'D:\pi7.txt',mode='w',encoding='utf-8')
+# # f = open(r'D:\PIyiyi.txt',mode='r',encoding='utf-8')
+# f = open(r'C:\Users\86135\Desktop\pi.txt',mode='r',encoding='utf-8')
+# f1= open(r'D:\pi_10_0.txt',mode='w',encoding='utf-8')
 # for line in f:
 #     # print(line)      #这种方式就是在一行一行的进行读取,它就执行了下边的功能
 #     head, sep, tail=line.partition(":")
@@ -49,8 +50,8 @@
 
 # # 大文件尝试(第二次)(成功去除空格)
 # # open(r'C:\Users\Meet')
-# f = open(r'D:\test1.txt',mode='r',encoding='utf-8')
-# f1= open(r'D:\test2.txt',mode='w',encoding='utf-8')
+# f = open(r'D:\pi_10_0.txt',mode='r',encoding='utf-8')
+# f1= open(r'D:\pi_10_1.txt',mode='w',encoding='utf-8')
 # for line in f:
 #     # print(line)      #这种方式就是在一行一行的进行读取,它就执行了下边的功能
 #     # head, sep, tail=line.partition(":")
@@ -59,17 +60,18 @@
 #     f1.write(line.replace(' ',''))
 # f.close()
 # f1.close()
-
+# print("已经好啦")
 
 
 
 # # 大文件尝试(第三次)(成功去除空行)
 # # open(r'C:\Users\Meet')
-# f = open(r'D:\test1.txt',mode='r',encoding='utf-8')
-# f1= open(r'D:\test2.txt',mode='w',encoding='utf-8')
+# print("看到这句话时表示清除空行已经开始")
+# f = open(r'D:\pi_10_1.txt',mode='r',encoding='utf-8')
+# f1= open(r'D:\pi_10_2.txt',mode='w',encoding='utf-8')
 # for line in f:
 #     if line.split():
 #         f1.write(line)
 # f.close()
 # f1.close()
-
+# print("看到这句话时表示清除空行已经结束")
